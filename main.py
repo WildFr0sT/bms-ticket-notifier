@@ -22,7 +22,7 @@ import requests
 CONFIG = {
     "url": os.getenv(
         "BMS_URL",
-        "https://in.bookmyshow.com/movies/chennai/dhurandhar-the-revenge/buytickets/ET00478890"
+        "https://in.bookmyshow.com/movies/thiruvananthapuram-trivandrum/avengers-doomsday/ET00439706"
     ),
     "dates": os.getenv("BMS_DATES", ""),          # comma-separated YYYYMMDD, empty = from URL
     "theatre": os.getenv("BMS_THEATRE", ""),       # substring filter, empty = all
@@ -69,6 +69,8 @@ REGION_MAP = {
     "kolkata":    ("KOLK",   "kolkata",    "22.573", "88.364", "tun"),
     "pune":       ("PUNE",   "pune",       "18.520", "73.856", "te2"),
     "kochi":      ("KOCH",   "kochi",      "9.932",  "76.267", "t9z"),
+    "thiruvananthapuram-trivandrum": ("TRV", "thiruvananthapuram-trivandrum", "8.524", "76.937", "t9w"),
+    "trivandrum":                    ("TRV", "thiruvananthapuram-trivandrum", "8.524", "76.937", "t9w"),
 }
 
 
