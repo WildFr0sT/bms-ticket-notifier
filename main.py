@@ -16,16 +16,33 @@ from dataclasses import dataclass, field
 from urllib.parse import urlparse
 import requests
 
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
+# Load .env file if it exists
+_env_path = os.path.join(os.path.dirname(__file__), ".env")
+if os.path.isfile(_env_path):
+    with open(_env_path, "r", encoding="utf-8") as _f:
+        for _line in _f:
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _v = _line.split("=", 1)
+                os.environ.setdefault(_k.strip(), _v.strip().strip("'\""))
+
 # ──────────────────────────────────────────────────────────────────────
 # CONFIGURATION — edit these or set via env vars
 # ──────────────────────────────────────────────────────────────────────
 CONFIG = {
     "url": os.getenv(
         "BMS_URL",
-        "https://in.bookmyshow.com/movies/thiruvananthapuram-trivandrum/avengers-doomsday/ET00439706"
+        "https://in.bookmyshow.com/movies/thiruvananthapuram-trivandrum/jailer-2/ET00518674"
     ),
     "dates": os.getenv("BMS_DATES", ""),          # comma-separated YYYYMMDD, empty = from URL
-    "theatre": os.getenv("BMS_THEATRE", ""),       # substring filter, empty = all
+    "theatre": os.getenv("BMS_THEATRE", "Ariesplex"),       # substring filter, empty = all
     "time_period": os.getenv("BMS_TIME", ""),      # e.g. "evening,night", empty = all
 }
 
@@ -69,8 +86,8 @@ REGION_MAP = {
     "kolkata":    ("KOLK",   "kolkata",    "22.573", "88.364", "tun"),
     "pune":       ("PUNE",   "pune",       "18.520", "73.856", "te2"),
     "kochi":      ("KOCH",   "kochi",      "9.932",  "76.267", "t9z"),
-    "thiruvananthapuram-trivandrum": ("TRV", "thiruvananthapuram-trivandrum", "8.524", "76.937", "t9w"),
-    "trivandrum":                    ("TRV", "thiruvananthapuram-trivandrum", "8.524", "76.937", "t9w"),
+    "thiruvananthapuram-trivandrum": ("TRIV", "thiruvananthapuram-trivandrum", "8.524", "76.937", "t9w"),
+    "trivandrum":                    ("TRIV", "thiruvananthapuram-trivandrum", "8.524", "76.937", "t9w"),
 }
 
 
