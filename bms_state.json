@@ -1,70 +1,181 @@
 {
   "shows": {
-    "ASLC|12836|20261027|PLATINUM": {
+    "ASLC|12841|20261029|PLATINUM": {
       "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
-      "time": "10:00 PM",
-      "date": "20261027",
+      "time": "11:30 AM",
+      "date": "20261029",
       "cat": "PLATINUM",
       "price": "480.00",
       "status": "3"
     },
-    "ASLC|12836|20261027|GOLD": {
+    "ASLC|12841|20261029|GOLD": {
       "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
-      "time": "10:00 PM",
-      "date": "20261027",
+      "time": "11:30 AM",
+      "date": "20261029",
       "cat": "GOLD",
       "price": "200.00",
-      "status": "2"
+      "status": "3"
     },
-    "ASLC|12836|20261027|EXECUTIVE": {
+    "ASLC|12841|20261029|EXECUTIVE": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "11:30 AM",
+      "date": "20261029",
+      "cat": "EXECUTIVE",
+      "price": "180.00",
+      "status": "3"
+    },
+    "ASLC|12842|20261029|PLATINUM": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "03:00 PM",
+      "date": "20261029",
+      "cat": "PLATINUM",
+      "price": "480.00",
+      "status": "3"
+    },
+    "ASLC|12842|20261029|GOLD": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "03:00 PM",
+      "date": "20261029",
+      "cat": "GOLD",
+      "price": "200.00",
+      "status": "3"
+    },
+    "ASLC|12842|20261029|EXECUTIVE": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "03:00 PM",
+      "date": "20261029",
+      "cat": "EXECUTIVE",
+      "price": "180.00",
+      "status": "3"
+    },
+    "ASLC|12897|20261029|GOLD": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "04:15 PM",
+      "date": "20261029",
+      "cat": "GOLD",
+      "price": "250.00",
+      "status": "3"
+    },
+    "ASLC|12897|20261029|EXECUTIVE": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "04:15 PM",
+      "date": "20261029",
+      "cat": "EXECUTIVE",
+      "price": "160.00",
+      "status": "3"
+    },
+    "ASLC|12897|20261029|ECONOMY": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "04:15 PM",
+      "date": "20261029",
+      "cat": "ECONOMY",
+      "price": "100.00",
+      "status": "3"
+    },
+    "ASLC|12843|20261029|PLATINUM": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "06:30 PM",
+      "date": "20261029",
+      "cat": "PLATINUM",
+      "price": "480.00",
+      "status": "3"
+    },
+    "ASLC|12843|20261029|GOLD": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "06:30 PM",
+      "date": "20261029",
+      "cat": "GOLD",
+      "price": "200.00",
+      "status": "3"
+    },
+    "ASLC|12843|20261029|EXECUTIVE": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "06:30 PM",
+      "date": "20261029",
+      "cat": "EXECUTIVE",
+      "price": "180.00",
+      "status": "3"
+    },
+    "ASLC|12898|20261029|GOLD": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "07:45 PM",
+      "date": "20261029",
+      "cat": "GOLD",
+      "price": "250.00",
+      "status": "3"
+    },
+    "ASLC|12898|20261029|EXECUTIVE": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "07:45 PM",
+      "date": "20261029",
+      "cat": "EXECUTIVE",
+      "price": "160.00",
+      "status": "3"
+    },
+    "ASLC|12898|20261029|ECONOMY": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "07:45 PM",
+      "date": "20261029",
+      "cat": "ECONOMY",
+      "price": "100.00",
+      "status": "3"
+    },
+    "ASLC|12844|20261029|PLATINUM": {
       "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
       "time": "10:00 PM",
-      "date": "20261027",
-      "cat": "EXECUTIVE",
-      "price": "180.00",
-      "status": "3"
-    },
-    "ASLC|12859|20261027|PLATINUM": {
-      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
-      "time": "11:00 PM",
-      "date": "20261027",
+      "date": "20261029",
       "cat": "PLATINUM",
-      "price": "430.00",
+      "price": "480.00",
       "status": "3"
     },
-    "ASLC|12859|20261027|GOLD": {
+    "ASLC|12844|20261029|GOLD": {
       "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
-      "time": "11:00 PM",
-      "date": "20261027",
+      "time": "10:00 PM",
+      "date": "20261029",
       "cat": "GOLD",
-      "price": "300.00",
+      "price": "200.00",
       "status": "3"
     },
-    "ASLC|12859|20261027|EXECUTIVE": {
+    "ASLC|12844|20261029|EXECUTIVE": {
       "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
-      "time": "11:00 PM",
-      "date": "20261027",
+      "time": "10:00 PM",
+      "date": "20261029",
       "cat": "EXECUTIVE",
       "price": "180.00",
       "status": "3"
     },
-    "ASLC|12859|20261027|ECONOMY": {
+    "ASLC|12899|20261029|GOLD": {
       "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
       "time": "11:00 PM",
-      "date": "20261027",
+      "date": "20261029",
+      "cat": "GOLD",
+      "price": "250.00",
+      "status": "3"
+    },
+    "ASLC|12899|20261029|EXECUTIVE": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "11:00 PM",
+      "date": "20261029",
+      "cat": "EXECUTIVE",
+      "price": "160.00",
+      "status": "3"
+    },
+    "ASLC|12899|20261029|ECONOMY": {
+      "venue": "Ariesplex SL Cinemas Cinionic Dolby Atmos",
+      "time": "11:00 PM",
+      "date": "20261029",
       "cat": "ECONOMY",
-      "price": "105.00",
+      "price": "100.00",
       "status": "3"
     }
   },
   "dates": {
-    "20261027": "BOOKABLE",
-    "20261028": "AVAILABLE",
-    "20261029": "AVAILABLE",
+    "20261029": "BOOKABLE",
     "20261030": "AVAILABLE",
     "20261031": "AVAILABLE",
     "20261101": "AVAILABLE",
     "20261102": "AVAILABLE",
-    "20261103": "AVAILABLE"
+    "20261103": "AVAILABLE",
+    "20261104": "AVAILABLE"
   }
 }
